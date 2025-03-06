@@ -1,0 +1,31 @@
+.container {
+  background-color: red;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    background-color: blue;
+  }
+}
+/* End Mobile */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    background-color: green;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    background-color: tomato;
+  }
+}
+
+.class-baru {
+}
